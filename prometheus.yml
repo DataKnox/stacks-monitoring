@@ -8,8 +8,8 @@ scrape_configs:
 
   - job_name: 'stacks_signer_node'
     static_configs:
-      - targets: ['69.2.42.123:9155']
+      - targets: ['x.x.x.x:9154']
 
   - job_name: 'stacks_node'
     static_configs:
-      - targets: ['69.2.42.123:9153']
+      - targets: ['x.x.x.x:9153']
